@@ -3,15 +3,17 @@
   <!--[EDITOR COMMAND INSERT]-->
   <EString nkey="InsCmd_Default_Msg" wpfControl="">
     <val lang="jap">スクリプト行をクリックすると画面に反映されます。</val>
-    <val lang="eng">clicking on the script will apply to screen</val>
+    <val lang="eng">clicking on the script will apply to screen</val>  
   </EString>
   <EString nkey="InsCmd_Msg_NoPreview" wpfControl="">
     <val lang="jap">リアルタイムプレビュー解除中です。</val>
     <val lang="eng">realtime preview is off</val>
+    <val lang="zh-tw">已關閉即時預覽</val>		  
   </EString>
   <EString nkey="InsCmd_PlayMode_Msg" wpfControl="">
     <val lang="jap">テストプレイ中。スクリプト修正は終了後に反映されます。(F5で終了)</val>
     <val lang="eng">test playing. script changes not saved. (F5 to end)</val>
+    <val lang="zh-tw">正在測試遊戲中。將不會儲存腳本的變動。(使用F5來結束測試)</val>	  
   </EString>
   <!--command divider-->
   <EString nkey="InsCmd_TextSample" wpfControl="">
@@ -21,23 +23,28 @@
   <EString nkey="InsCmd_TextChoiceSample" wpfControl="">
     <val lang="jap">選択肢だよ</val>
     <val lang="eng">I'm a choice!</val>
+    <val lang="zh-tw">這裡是一個選項</val>	  	  
   </EString>
   <EString nkey="InsCmd_TargetNameSample" wpfControl="">
     <val lang="jap">対象名</val>
     <val lang="eng">target_name</val>
+    <val lang="zh-tw">對象名字</val>	  
   </EString>
   <EString nkey="InsCmd_VarNameSample" wpfControl="">
     <val lang="jap">変数名</val>
     <val lang="eng">varname</val>
+    <val lang="zh-tw">變量名字</val>	  
   </EString>
   <EString nkey="InsCmd_VarValueSample" wpfControl="">
     <val lang="jap">変数値</val>
     <val lang="eng">value</val>
+    <val lang="zh-tw">變數值</val>	  
   </EString>
   <!--command divider-->
   <EString nkey="InsCmdChoice" wpfControl="">
     <val lang="jap">選択肢</val>
     <val lang="eng">choice</val>
+    <val lang="zh-tw">選項</val>	  
   </EString>
   <!--command divider-->
   <EString nkey="InsCmdSystemMessage_ScriptCmd" wpfControl="">
@@ -56,78 +63,96 @@
   <EString nkey="MainParserStateDisplay_MScript" wpfControl="">
     <val lang="jap">スクリプト状態</val>
     <val lang="eng">script state</val>
+    <val lang="zh-tw">腳本狀態</val>		  
   </EString>
   <EString nkey="MainParserStateDisplay_State2" wpfControl="">
     <val lang="jap">読み込み終了</val>
     <val lang="eng">read complete</val>
+    <val lang="zh-tw">結束讀取</val>	  
   </EString>
   <EString nkey="MainParserStateDisplay_State1" wpfControl="">
     <val lang="jap">読み込み中..</val>
     <val lang="eng">reading..</val>
+    <val lang="zh-tw">讀取中...</val>	  
   </EString>
   <!--[EDITOR BOTTOM INFORMATION]-->
   <EString nkey="vnstateEdit" wpfControl="statGameState">
     <val lang="jap">作品状態：編集（F5を押せばテストプレイを開始します）</val>
     <val lang="eng">state：edit（F5 to start test play）</val>
+    <val lang="zh-tw">作品狀態：編輯（使用 F5 來開始播放預覽）</val>		  
   </EString>
   <EString nkey="vnstatePlay" wpfControl="">
     <val lang="jap">作品状態：テストプレイ（開始行：{0}. スクリプト編集は終了後に反映されます）</val>
     <val lang="eng">state：test play（start line：{0}. script changes not saved）</val>
+    <val lang="zh-tw">作品狀態：測試中（開始行：{0}. 未儲存腳本更改）</val>		  
   </EString>
   <EString nkey="fpsDisplay" wpfControl="">
     <val lang="jap">FPS ( アップデート: {0} , render: {1} )</val>
     <val lang="eng">FPS ( update: {0} , render: {1} )</val>
+    <val lang="zh-tw">FPS ( 更新: {0} , render: {1} )</val>		  
   </EString>
   <EString nkey="mousePos" wpfControl="">
     <val lang="jap">マウス位置： ( {0} , {1} )</val>
     <val lang="eng">mouse pos： ( {0} , {1} )</val>
+    <val lang="zh-tw">滑鼠位置： ( {0} , {1} )</val>
   </EString>
   <EString nkey="editLine" wpfControl="">
     <val lang="jap">編集行：{0}</val>
     <val lang="eng">edit line：{0}</val>
+    <val lang="zh-tw">編輯行：{0}</val>		  
   </EString>
   <EString nkey="curScriptSaved" wpfControl="">
     <val lang="jap">[現在スクリプト：保存済]</val>
     <val lang="eng">[script：saved]</val>
+    <val lang="zh-tw">[當前腳本：已儲存]</val>			  
   </EString>
   <EString nkey="curScriptNotSaved" wpfControl="">
     <val lang="jap">[現在スクリプト：未保存]</val>
     <val lang="eng">[script：unsaved]</val>
+    <val lang="zh-tw">[當前腳本：尚未儲存]</val>		  
   </EString>
   <!--[EDITOR TOPRIGHT SCRIPT MANAGEMENT]-->
   <EString nkey="newScript" wpfControl="">
     <val lang="jap">新規スクリプト</val>
     <val lang="eng">new script</val>
+    <val lang="zh-tw">新腳本</val>	  
   </EString>
   <EString nkey="closeAllScript" wpfControl="">
     <val lang="jap">全部 閉じる</val>
     <val lang="eng">close all</val>
+    <val lang="zh-tw">關閉全部</val>		  
   </EString>
   <EString nkey="openScript" wpfControl="">
     <val lang="jap">開く</val>
     <val lang="eng">open</val>
+    <val lang="zh-tw">開啟</val>	  
   </EString>
   <EString nkey="closeScript" wpfControl="">
     <val lang="jap">閉じる</val>
     <val lang="eng">close</val>
+    <val lang="zh-tw">關閉</val>	  
   </EString>
   <!--[EDITOR TOP MENU]-->
   <!--file-->
   <EString nkey="menuFile" wpfControl="">
     <val lang="jap">ファイル</val>
     <val lang="eng">file</val>
+    <val lang="zh-tw">檔案</val>	  
   </EString>
   <EString nkey="menuFileNewProject" wpfControl="">
     <val lang="jap">新規プロジェクト</val>
     <val lang="eng">new project</val>
+    <val lang="zh-tw">新專案</val>	  
   </EString>
   <EString nkey="menuFileSaveCur" wpfControl="">
     <val lang="jap">現在スクリプトを保存</val>
     <val lang="eng">save current project</val>
+    <val lang="zh-tw">保存當前專案</val>		  
   </EString>
   <EString nkey="menuFileExit" wpfControl="">
     <val lang="jap">Light.vnを終了</val>
     <val lang="eng">close Light.vn</val>
+    <val lang="zh-tw">退出 Light.vn</val>	  
   </EString>
   <!--file:new_project-->
   <EString nkey="menuFileNewProjectSelectDir" wpfControl="">
@@ -135,41 +160,52 @@
     指定後、プロジェクトが生成されるまで数秒、お待ちください</val>
     <val lang="eng">choose folder to create new project.
     after choice, wait few seconds for project to create</val>
+    <val lang="zh-tw">請指定資料夾來建立新專案。
+    指定後, 請等待幾秒鐘至新專案建立完畢</val>
+	  
   </EString>
   <EString nkey="menuFileNewProjectComplete" wpfControl="">
     <val lang="jap">新規プロジェクト生成完了。新規プロジェクト中のLightEditor.exeを起動してください</val>
     <val lang="eng">new project create complete. open LightEditor.exe in new project</val>
+    <val lang="zh-tw">新專案創建完成了。 請在LightEditor.exe中開啟新專案</val>			  
   </EString>
   <!--view-->
   <EString nkey="menuView" wpfControl="">
     <val lang="jap">表示</val>
     <val lang="eng">view</val>
+    <val lang="zh-tw">檢視</val>		  
   </EString>
   <EString nkey="menuViewZoom" wpfControl="">
     <val lang="jap">プレビュー画面拡大</val>
     <val lang="eng">zoom preview screen</val>
+    <val lang="zh-tw">放大預覽畫面</val>		  
   </EString>
   <!--view:novel-->
   <EString nkey="menuNovel" wpfControl="">
     <val lang="jap">作品</val>
     <val lang="eng">works</val>
+    <val lang="zh-tw">作品</val>	  
   </EString>
   <EString nkey="menuNovelStartTest" wpfControl="">
     <val lang="jap">現在位置からテストプレイ開始/中止</val>
     <val lang="eng">start/end testplay from current line</val>
+    <val lang="zh-tw">從指定的行開始/結束預覽</val>		  
   </EString>
   <!--view:novel:config-->
   <EString nkey="menuNovelConfig" wpfControl="">
     <val lang="jap">作品設定 -Light.vn</val>
     <val lang="eng">config -Light.vn</val>
+    <val lang="zh-tw">作品設定 -Light.vn</val>	  
   </EString>
   <EString nkey="menuNovelConfigTitle" wpfControl="">
     <val lang="jap">作品タイトル</val>
     <val lang="eng">title</val>
+    <val lang="zh-tw">作品名稱</val>		  
   </EString>
   <EString nkey="menuNovelConfigFolderName" wpfControl="">
     <val lang="jap">作品フォルダ名</val>
     <val lang="eng">folder name</val>
+    <val lang="zh-tw">工作資料夾名稱</val>		  
   </EString>
   <EString nkey="menuNovelConfigFolderNameExpl" wpfControl="">
     <val lang="jap">英数字でのプロジェクトフォルダー名</val>
@@ -178,26 +214,31 @@
   <EString nkey="menuNovelConfigInitScript" wpfControl="">
     <val lang="jap">スタートスクリプト</val>
     <val lang="eng">start script</val>
+    <val lang="zh-tw">啟動腳本</val>		  
   </EString>
   <EString nkey="menuNovelConfigGameRes" wpfControl="">
     <val lang="jap">作品解像度</val>
     <val lang="eng">resolution</val>
+    <val lang="zh-tw">作品解析度</val>	  
   </EString>
   <EString nkey="menuNovelConfigGameWinRes" wpfControl="">
     <val lang="jap">ウインドウサイズ</val>
     <val lang="eng">window size</val>
+    <val lang="zh-tw">視窗大小</val>	  
   </EString>
   <EString nkey="menuNovelConfigMsgboxScript" wpfControl="">
     <val lang="jap">メッセージスクリプト</val>
-    <val lang="eng">message script</val>
+    <val lang="eng">message script</val>	  
   </EString>
   <EString nkey="menuNovelConfigIcon" wpfControl="">
     <val lang="jap">アイコン</val>
     <val lang="eng">icon</val>
+    <val lang="zh-tw">圖標</val>	  	  
   </EString>
   <EString nkey="menuNovelConfigIconExpl" wpfControl="">
     <val lang="jap">32x32のpng画像をお勧めします</val>
     <val lang="eng">32x32 png recommended</val>
+    <val lang="zh-tw">建議使用 32x32 png 的圖片</val>	  
   </EString>
   <EString nkey="menuNovelConfigEditorStringFile" wpfControl="">
     <val lang="jap">エディター文字列</val>
@@ -214,35 +255,43 @@
   <EString nkey="menuNovelConfigLanguage" wpfControl="">
     <val lang="jap">使用言語</val>
     <val lang="eng">Language</val>
+    <val lang="zh-tw">使用語言</val>	  
   </EString>
   <!--view:novel:distribution-->
   <EString nkey="menuNovelDistr" wpfControl="">
     <val lang="jap">作品配布</val>
     <val lang="eng">distribute</val>
+    <val lang="zh-tw">發布作品</val>		  
   </EString>
   <EString nkey="menuNovelDistrTitle" wpfControl="">
     <val lang="jap">作品配布 -Light.vn</val>
     <val lang="eng">distribute -Light.vn</val>
+    <val lang="zh-tw">發布作品 -Light.vn</val>		  
   </EString>
   <EString nkey="menuNovelDistrDir" wpfControl="">
     <val lang="jap">作品配布経路</val>
     <val lang="eng">distribute dir.</val>
+    <val lang="zh-tw">作品發布路徑</val>		  
   </EString>
   <EString nkey="menuNovelDistrMethod" wpfControl="">
     <val lang="jap">作品配布形式</val>
     <val lang="eng">distribute format</val>
+    <val lang="zh-tw">作品的發布方式</val>		  
   </EString>
   <EString nkey="menuNovelDistrNote" wpfControl="">
     <val lang="jap">(注：指定されたディレクトリーにノベルフォルダーを作ります)</val>
     <val lang="eng">(folder will be created in designated directory)</val>
+    <val lang="zh-tw">（注意：會在指定的目錄下建立資料夾）</val>		  
   </EString>
   <EString nkey="menuNovelDistrProg" wpfControl="">
     <val lang="jap">作品配布進行度</val>
     <val lang="eng">progress</val>
+    <val lang="zh-tw">作品發布進度</val>		  
   </EString>
   <EString nkey="menuNovelDistrStart" wpfControl="">
     <val lang="jap">作品配布開始</val>
     <val lang="eng">start</val>
+    <val lang="zh-tw">開始發布作品</val>		  
   </EString>
   <EString nkey="menuNovelDistrLicenseTxt" wpfControl="">
     <val lang="jap">作品公開時はLight.vnの導入事例に追加し、宣伝協力などもしたい為、もしよろしければ、メール或いはDiscordでご連絡ください。 
@@ -255,37 +304,46 @@
   <EString nkey="menuNovelDistrReferenceTxt1" wpfControl="">
     <val lang="jap">参考：</val>
     <val lang="eng">Note：</val>
+    <val lang="zh-tw">参考：</val>		  
   </EString>
   <EString nkey="menuNovelDistrReferenceTxt2" wpfControl="">
     <val lang="jap">Light.vn 配布の流れ、公開前後のアドバイス</val>
     <val lang="eng">Light.vn distribution manual + advice</val>
+    <val lang="zh-tw">Light.vn 發布流程、發布前後的建議</val>		  
   </EString>
   <!--help-->
   <EString nkey="menuHelp" wpfControl="">
     <val lang="jap">ヘルプ</val>
     <val lang="eng">help</val>
+    <val lang="zh-tw">幫助</val>		  
   </EString>
   <!--help:format-->
   <EString nkey="menuHelpFormat" wpfControl="">
     <val lang="jap">支援ファイルフォーマット</val>
     <val lang="eng">supported file formats</val>
+    <val lang="zh-tw">支援的檔案格式</val>		  
   </EString>
   <EString nkey="menuHelpFormatTitle" wpfControl="">
     <val lang="jap">支援ファイル -Light.vn</val>
     <val lang="eng">file formats -Light.vn</val>
+    <val lang="zh-tw">支援的檔案 -Light.vn</val>		  
   </EString>
   <EString nkey="menuHelpFormatHeader" wpfControl="">
     <val lang="jap">Light.vn 支援ファイルフォーマット</val>
     <val lang="eng">Light.vn file formats</val>
+    <val lang="zh-tw">Light.vn 支援的檔案格式</val>		  
   </EString>
   <EString nkey="menuHelpFormatNote" wpfControl="">
     <val lang="jap">注：.mp3は法律上の問題によって支援していません。オーディオファイルは.oggをお勧めします。</val>
     <val lang="eng">Note：.mp3 is not supported due to legal reasons. .ogg is recommended for audio.</val>
+    <val lang="zh-tw">注意：由於法律問題，並不支援 .mp3。 我們推薦使用 .ogg 檔案。</val>
+	  
   </EString>
   <!--help:about-->
   <EString nkey="menuHelpAbout" wpfControl="">
     <val lang="jap">Light.vnについて</val>
     <val lang="eng">about Light.vn</val>
+    <val lang="zh-tw">關於 Light.vn</val>		  
   </EString>
   <EString nkey="menuHelpAboutContent" wpfControl="">
     <val lang="jap">
@@ -313,6 +371,7 @@
   <EString nkey="RealtimePreviewCheck" wpfControl="">
     <val lang="jap">リアルタイムプレビュー使用</val>
     <val lang="eng">use realtime preview</val>
+    <val lang="zh-tw">使用即時預覽</val>		  
   </EString>
   <EString nkey="ScriptWordWrapCheck" wpfControl="">
     <val lang="jap">スクリプトのワードラップ</val>
